@@ -221,7 +221,6 @@ class AlchemyClient:
         return parsed_transfers
 
     def get_token_balances(self, *, wallet: str, chain: str) -> List[Balance]:
-
         payload = {
             "id": 1,
             "jsonrpc": "2.0",
